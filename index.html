@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NomadAlgorithm</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Manrope', sans-serif;
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background-color: #111;
+      flex-wrap: wrap;
+    }
+    .logo { font-size: 1.5rem; font-weight: 700; color: #00f2c3; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #aaa;
+      font-weight: 500;
+    }
+    nav a:hover { color: #fff; }
+    .hero {
+      text-align: center;
+      padding: 6rem 2rem;
+      background: radial-gradient(circle at center, #0f0f0f, #000);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #00f2c3;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      color: #ccc;
+      margin-bottom: 2rem;
+    }
+    .cta-btn {
+      padding: 0.75rem 2rem;
+      background-color: #00f2c3;
+      color: #000;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .cta-btn:hover { background-color: #00c9a7; }
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #00f2c3;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      background-color: #111;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 2rem; }
+      .hero p { font-size: 1rem; }
+      header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+      nav { flex-direction: column; gap: 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">NomadAlgorithm</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#strategy">Strategy</a>
+      <a href="#tech">Technology</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Code the chaos. Trade the world.</h1>
+    <p>Adaptive Algorithms for Dynamic Markets</p>
+    <button class="cta-btn">Explore Strategies</button>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      NomadAlgorithm는 고정된 전략이 아닌, 유동하는 시장 환경에 적응하며 스스로 진화하는 알고리즘 트레이딩 시스템을 개발합니다. 우리의 철학은 '떠돌아야 살아남는다'입니다.
+    </p>
+  </section>
+
+  <section id="strategy">
+    <h2>Our Strategies</h2>
+    <p>
+      Whale Flow Tracker, Chain Rotation Engine, Meme Signal Radar 등 다양한 시스템 기반 전략을 운용하며, 온체인과 오프체인 데이터를 융합합니다.
+    </p>
+  </section>
+
+  <section id="tech">
+    <h2>Technology</h2>
+    <p>
+      Python, Dune Analytics, Nansen, DefiLlama API를 활용한 데이터 수집과 머신러닝 기반의 신호 생성 시스템을 갖추고 있습니다.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>contact@nomadalgorithm.com 으로 문의 주세요.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 NomadAlgorithm. All rights reserved.
+  </footer>
+</body>
+</html>
